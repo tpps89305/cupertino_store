@@ -4,7 +4,11 @@
 
 ## 規格
 
-最低相容 Flutter SDK 版本：3.7（因應 CupertinoListTile 等套件是在 3.7 才提供）
+- 最低相容 Flutter SDK 版本：3.7（因應 CupertinoListTile 等套件是在 3.7 才提供）
+
+- 目前可在以下環境執行
+  - Dart SDK 3.1
+  - Flutter SDK 3.13
 
 ## 內容
 
@@ -20,4 +24,4 @@
 
 ## 參考資料
 
-[Building a Cupertino app with Flutter](https://codelabs.developers.google.com/codelabs/flutter-cupertino#0)
+Building a Cupertino app with Flutter（連結已失效）

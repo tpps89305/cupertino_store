@@ -3,10 +3,10 @@ import 'package:flutter/cupertino.dart';
 
 class SearchBar extends StatelessWidget {
   const SearchBar({
-    Key? key,
+    super.key,
     required this.controller,
     required this.focusNode,
-  }) : super(key: key);
+  });
 
   final TextEditingController controller;
   final FocusNode focusNode;

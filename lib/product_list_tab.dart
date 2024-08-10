@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 
 class ProductListTab extends StatelessWidget {
-  const ProductListTab({Key? key}) : super(key: key);
+  const ProductListTab({super.key});
 
   @override
   Widget build(BuildContext context) {

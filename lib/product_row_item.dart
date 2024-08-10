@@ -6,9 +6,9 @@ import 'package:provider/provider.dart';
 
 class ProductRowItem extends StatelessWidget {
   const ProductRowItem({
-    Key? key,
+    super.key,
     required this.product,
-  }) : super(key: key);
+  });
 
   final Product product;
 

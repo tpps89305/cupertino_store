@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 const double _kDateTimePickerHeight = 216;
 
 class ShoppingCartTab extends StatefulWidget {
-  const ShoppingCartTab({Key? key}) : super(key: key);
+  const ShoppingCartTab({super.key});
 
   @override
   State<ShoppingCartTab> createState() => _ShoppingCartTabState();
@@ -174,9 +174,9 @@ class _ShoppingCartTabState extends State<ShoppingCartTab> {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.start,
-              children: const <Widget>[
+              children: <Widget>[
                 Icon(
                   CupertinoIcons.clock,
                   color: CupertinoColors.lightBackgroundGray,
